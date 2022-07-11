@@ -19,18 +19,15 @@
 # in the templates via {{ site.myvariable }}.
 
 title: supermarth64's FGO Website
-#email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   A website used for various FGO resouces.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: / # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
 # Build settings
 #theme: minima
-plugins:
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -51,6 +48,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+permalink:        pretty
 
 github:
   repo:           https://github.com/poole/hyde

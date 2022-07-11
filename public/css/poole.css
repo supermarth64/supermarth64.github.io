@@ -59,8 +59,8 @@ html {
 }
 
 body {
-  color: #515151;
-  background-color: #fff;
+  color: #fff;
+  background-color: #404552;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #313131;
+  color: #fff;
   text-rendering: optimizeLegibility;
 }
 h1 {
@@ -329,23 +329,23 @@ tbody tr:nth-child(odd) th {
  */
 
 .page,
-.post {
+.node {
   margin-bottom: 4em;
 }
 
 /* Blog post or page title */
 .page-title,
-.post-title,
-.post-title a {
-  color: #303030;
+.node-title,
+.node-title a {
+  color: #fff;
 }
 .page-title,
-.post-title {
+.node-title {
   margin-top: 0;
 }
 
 /* Meta data line below post title */
-.post-date {
+.node-date {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
